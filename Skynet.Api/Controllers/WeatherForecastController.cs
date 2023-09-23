@@ -31,7 +31,8 @@ namespace Skynet.Api.Controllers
                     TemperatureC = Random.Shared.Next(-20, 55)
                 });
             }
-            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return list;
+           //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             //{
             //    Date = DateTime.Now.AddDays(index),
             //    TemperatureC = Random.Shared.Next(-20, 55),
